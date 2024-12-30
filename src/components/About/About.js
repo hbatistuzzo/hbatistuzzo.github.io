@@ -23,16 +23,17 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Henrique Batistuzzo</strong>. I'm a Data Analyst with a background in Oceanography. My journey through data science bumped into React, so I've figured I might as well make a portfolio with it.
+            Hello! My name is <strong>Henrique Batistuzzo</strong>. I'm a Data Analyst with a background in Oceanography. My journey through data science bumped into React, so I've figured I might as well make a portfolio with it. Some key info below:
             <ul>
-            <li>- Exchange period at the University of Victoria as a CNPq scholarship holder through the Science Without Borders program.</li>
-            <li>- Academic background with a focus on the use of remote sensing to study Geophysical Fluid        Dynamics.</li>
-            <li>- Years of experience with metocean data (altimetry, SST, salinity, ocean colour, wind) and         oceanographic instrumentation (ice profiling sonars, acoustic zooplankton and fish profilers, CTD's         etc).</li>
-            <li>- Experience with numerical models for global oceanic circulation (e.g. ROMS, HYCOM), using it        together with Parcels (https://oceanparcels.org/) to study lagrangian advection.</li>
-            </ul>.
+            <li> Exchange period at the University of Victoria as a CNPq scholarship holder through the Science Without Borders program.</li>
+            <li>🔹Academic background with a focus on the use of remote sensing to study Geophysical Fluid        Dynamics.</li>
+            <li>🔹Years of experience with metocean data (altimetry, SST, salinity, ocean colour, wind) and  oceanographic instrumentation (ice profiling sonars, acoustic zooplankton and fish profilers, CTD's  etc).</li>
+            <li>🔹Experience with numerical models for global oceanic circulation (e.g. ROMS, HYCOM), using it     together with Parcels (https://oceanparcels.org/) to study lagrangian advection.</li>
+            </ul>
 
             </ScrollAnimation>
 
+            <br /><br />
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
@@ -51,7 +52,7 @@ function About() {
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              {/* Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development. */}
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
