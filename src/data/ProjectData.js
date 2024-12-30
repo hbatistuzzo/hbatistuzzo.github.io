@@ -1,49 +1,59 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/vgos.gif",
+    title: "Rossby waves in Absolute Dynamic Topography data",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
+      "I've used CMEMS altimetry data to create functions that plot global monthly climatologies of zonal and meridional geostrophic velocities. The absolute dynamic topography variable was used to construct hovmöller diagrams in latitudes with strong signals in the low-frequency energy spectrum, thus allowing the visualization of 1st mode baroclinic Rossby waves.",
+    // tech_stack: ["React", "Firebase"],
+    tech_stack: ["Python", "Pandas", "Xarray", "Dask"],
+    github_url: "https://github.com/hbatistuzzo/CMEMS-altimetry",
+    demo_url: "https://www.youtube.com/@henriquebatistuzzo6833/videos",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/mf.gif",
+    title: "[PORTUGUESE] Visualizações com PowerBI",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "Este repositório compila uma série de projetos didáticos realizados durante a primeira metade do curso 'Microsoft Power BI Business Intelligence e Data Science' da Data Science Academy (72 horas de conteúdo, nível intermediário); esta primeira metade é focada em funcionalidades do Power BI, como: Ferramentas de visualização, Linguagem M para processos de ETL, Linguagem DAX para criação de medidas, estatísticas e parâmetros auxiliares, Manipulação de dados com Power Query, Funcionalidades nativas e externas e.g. Bravo e DAX Studio.",
+    tech_stack: ["PowerBI", "DAX"],
+    github_url: "https://github.com/hbatistuzzo/Projetos_PowerBI_parte1",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/forecasting.gif",
+    title: "[PORTUGUESE] PowerBI Avançado",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
+      "Este repositório estrutura o conteúdo da segunda metade do curso 'Business Intelligence e Data Science' da Data Science Academy (~ 72horas de duração, nível intermediário) e possui como foco: A integração do Power BI com Bancos de dados, o uso de SQL Analytics neste contexto, aplicação de técnicas de Machine Learning para segmentação e detecção de anomalias, com o auxílio de linguagens Python e R, o uso de Inteligência Artificial para análise de séries temporais no Power BI, e um estudo de caso. A oportunidade é fortuita para o aprendizado de algumas aplicações acessórias como ODBC e SQLite.",
+    tech_stack: ["PowerBI", "DAX", "Python", "R", "SQL", "IA"],
+    github_url: "https://github.com/hbatistuzzo/Projetos_PowerBI_parte2",
+    demo_url: "",
+  },
+  {
+    img: "/dovidio.png",
+    title: "PHYSAT: Honours' Thesis Project",
+    description:
+      "Codes used in my honours' thesis '1st mode baroclinic Rossby waves modify the composition of Phytoplancton Functional Groups'. Altimetry data is used in tandem with a bioalgorithm that classifies phytoplankton groups based on their spectral signature",
     tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+    github_url: "https://github.com/hbatistuzzo/PHYSAT_data",
+    demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/db.png",
+    title: "Ironhack Final Project: Viz, SQL queries, Predictive Model",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "This project came from the fintech AME-Digital's case for Data Engineers based on Stack Overflow's 2018 Dev Survey. Case specific goals: answering questions regarding average salary of respondents, where they are from, what technologies and communication tools they use etc.",
+    tech_stack: ["Python", "Pandas", "MySQL", "Tableau"],
+    github_url: "https://github.com/hbatistuzzo/Ironhack-FinalProject",
+    demo_url: "",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/heatmap.png",
+    title: "Linear Regression Model",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "A didactic machine learning project. One must predict the price of the diamonds in rick_diamonds.csv using the information from diamonds.csv through a linear regression model.",
+    tech_stack: ["Python", "Pandas"],
+    github_url: "https://github.com/hbatistuzzo/Diamonds_regression",
+    demo_url: "",
   },
 ];
 

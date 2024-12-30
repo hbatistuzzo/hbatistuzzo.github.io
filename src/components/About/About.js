@@ -17,20 +17,35 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="/man-svgrepo-com.svg"
-            alt="man-svgrepo"
+            src="/h2.png"
+            alt="henry2"
           />
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            Hello! My name is <strong>Henrique Batistuzzo</strong>. I'm a Data Analyst with a background in Oceanography. My journey through data science bumped into React, so I've figured I might as well make a portfolio with it.
+            <ul>
+            <li>- Exchange period at the University of Victoria as a CNPq scholarship holder through the Science Without Borders program.</li>
+            <li>- Academic background with a focus on the use of remote sensing to study Geophysical Fluid        Dynamics.</li>
+            <li>- Years of experience with metocean data (altimetry, SST, salinity, ocean colour, wind) and         oceanographic instrumentation (ice profiling sonars, acoustic zooplankton and fish profilers, CTD's         etc).</li>
+            <li>- Experience with numerical models for global oceanic circulation (e.g. ROMS, HYCOM), using it        together with Parcels (https://oceanparcels.org/) to study lagrangian advection.</li>
+            </ul>.
+
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            <ul>
+            <li>🔹🌊 I have an Ocean/Environmental Sciences academic background; BSc in Oceanography from the University of São Paulo</li>
+            <li>🔹⚓: Currently working at the Brazilian Navy-DHN as an oceanographic data analyst</li>
+            <li>🔹🖥️ Completed a bootcamp in Data Analytics through Ironhack</li>
+            <li>🔹📊 I've worked as a TA/Specialist Instructor and as an Oceanographic Data Analyst in BC, Canada</li>
+            <li>🔹🤘 4th kyu in codewars. It ain't easy 😢!</li>
+            <li>🔹Currently tackling React and React Native while brushing up javascript</li>
+            </ul>
+
+
             </ScrollAnimation>
 
             <br /><br />
